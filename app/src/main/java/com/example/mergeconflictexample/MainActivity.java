@@ -88,9 +88,11 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
     }
 
     @Override
+    public boolean onScrollMERGECONFLCIT (MotionEvent e1, MotionEvent e2, float distanceX, float distanceY) {
     public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX, float distanceY) {
         return false;
     }
+    // comment to see the difference in merging
 
     @Override
     public void onLongPress(MotionEvent e) {
