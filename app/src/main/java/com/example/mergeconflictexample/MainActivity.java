@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
 
 
     @Override
-    public boolean onTouchEvent(MotionEvent event) {
+    public boolean onTouchEventMergeConflictExample(MotionEvent event) {
         gestureDetector.onTouchEvent(event);
 
         switch(event.getAction())
